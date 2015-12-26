@@ -10,7 +10,7 @@ public class CalculatorTest {
 		
 		Calculator cal = new Calculator();
 		
-		cal.add(3, 5);
+		System.out.println(cal.add(5, 3));
 	}
 	
 	@Test
@@ -18,7 +18,7 @@ public class CalculatorTest {
 		
 		Calculator cal = new Calculator();
 		
-		cal.add(3, 5);
+		System.out.println(cal.substract(5, 3));
 	}
 
 }
