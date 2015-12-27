@@ -1,5 +1,6 @@
 package integration;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class CalculatorTest {
@@ -20,5 +21,14 @@ public class CalculatorTest {
 		
 		System.out.println(cal.substract(5, 3));
 	}
+	
+	@Test
+	public void multiply(){
+		
+		Calculator cal = new Calculator();
+		
+		Assert.assertTrue(20==cal.multiply(5, 3),"Expected 8 20 but result is " + cal.multiply(5, 3));
+	}
+
 
 }
