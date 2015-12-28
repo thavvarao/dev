@@ -27,7 +27,7 @@ public class CalculatorTest {
 		
 		Calculator cal = new Calculator();
 		
-		Assert.assertTrue(20==cal.multiply(5, 3),"Expected 8 20 but result is " + cal.multiply(5, 3));
+		Assert.assertTrue(20==cal.multiply(5, 3),"Expected 8 but result is " + cal.multiply(5, 3));
 	}
 
 
